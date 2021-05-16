@@ -1,0 +1,14 @@
+[package]
+name = "timetracer"
+version = "0.1.0"
+authors = ["David Jobe <david.jobe@mobility46.se>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = { version = "0.3", default-features = false }
+anyhow = "1.0.40"
+home = "0.5.3"
+toml = "0.5.8"
+serde = "1.0"
